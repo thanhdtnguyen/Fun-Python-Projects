@@ -1,1 +1,0 @@
-# objective: practicing string concatenation
