@@ -28,6 +28,7 @@ def madlib():
     madlib_out = f'I love {noun} because it is {adj1}. Whenever I feel {adj2}, I always \
 {verb} to feel like I have superpower like {movie_character}!'
 
+    # allow players to re-enter the words
     reveal_sound.play()
     ready = input('Enter "ok" to continue or "nope" to change the inputs: ').lower()
 
@@ -36,12 +37,13 @@ def madlib():
         print(madlib_out)
         print('-----------')
     elif ready == 'nope':
-        madlib_out_fixed = madlib()
         print('-----------')
-        print(madlib_out_fixed)
+        madlib()
         print('-----------')
     else:
+        print('-----------')
         print('Game Ended!')
+        print('-----------')
     
 
 if __name__ == '__main__':
