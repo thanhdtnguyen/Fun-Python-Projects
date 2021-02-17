@@ -4,8 +4,8 @@
 import pygame 
 pygame.init()
 pygame.mixer.init()
-next_sound = pygame.mixer.Sound('mixkit-unlock-game-notification-253.wav')
-reveal_sound = pygame.mixer.Sound('mixkit-happy-bells-notification-937.wav')
+next_sound = pygame.mixer.Sound('my_madlibs/madlibs_collection/mixkit-unlock-game-notification-253.wav')
+reveal_sound = pygame.mixer.Sound('my_madlibs/madlibs_collection/mixkit-happy-bells-notification-937.wav')
 
 def madlib():
     # input prompts
